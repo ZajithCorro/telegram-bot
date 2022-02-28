@@ -1,0 +1,31 @@
+{
+	"name": "telegram-bot",
+	"version": "1.0.0",
+	"description": "Telegram bot",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ZajithCorro/telegram-bot.git"
+	},
+	"keywords": [
+		"telegram",
+		"bot"
+	],
+	"author": "Zajith Corro <zajithcorrov@hotmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ZajithCorro/telegram-bot/issues"
+	},
+	"homepage": "https://github.com/ZajithCorro/telegram-bot#readme",
+	"devDependencies": {
+		"dotenv": "^16.0.0",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"telegraf": "^4.7.0"
+	}
+}
